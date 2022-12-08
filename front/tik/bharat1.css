@@ -1,0 +1,132 @@
+p{
+    color: brown;
+    background-color: chartreuse;
+}
+
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../ph4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red;  */
+    
+    position: absolute;
+    left: 34px;
+    top: 2px;
+
+}
+
+.left img {
+    width: 106px;
+    margin-left: 23px;
+    /* padding-left: 23px; */
+}
+
+.left div {
+    text-align: center;
+    margin: 44px;
+    padding: 3px;
+    font-size: 35px;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: turquoise;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 4px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.btn1 {
+    margin: 0px 580px;
+    background-color: black;
+    color: white;
+    padding: 4px 4px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: red;
+}
+.container {
+    /* border: 2px solid white; */
+    border-radius: 28px;
+    margin: 106px 80px;
+    padding: 75px;
+    /* width: 33%; */
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    /* border: 2px solid black; */
+    /* border-radius: 8px; */
+    margin: 11px auto;
+    font-size: 25px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 15%;
+    margin: auto;
+}

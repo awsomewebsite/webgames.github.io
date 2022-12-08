@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.sky{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    animation: shack linear 3s infinite;
+
+}
+body{
+    overflow: hidden;
+}
+.tree{
+    height: 100vh;
+    width: 100%;
+    background-image: url(trees.png);
+    background-size: cover;
+    position: absolute;
+    top: -144px;
+    animation: shack linear 3s infinite;
+}
+.track{
+    height: 60vh;
+    width: 800vw;
+    background-image: url(track.png);
+    /* background-size: cover; */
+    position: absolute;
+    top: 70vh;
+    background-repeat: repeat-x;
+    animation: carmove linear 3s infinite;
+}
+.car{
+    height: 100px;
+    width: 388px;
+    background-image: url(car_body.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 30vh;
+    left: 444px;
+    animation: shack linear 3s infinite;
+}
+
+.wheel1 img{
+    width: 77px;
+    position: relative;
+    top: 40px;
+    left: 45px;
+    animation: wheelrotation linear .6s infinite;
+
+}
+.wheel2 img{
+    width: 77px;
+    position: relative;
+    top: -39px;
+    left: 240px;
+    animation: wheelrotation linear .6s infinite;
+    
+}
+.gameOver{
+    /* position:absolute; */
+    top:63px;
+    font-size: 53px;
+    text-align: center; 
+    
+}
+nav{
+    background-color: rgb(37, 9, 37);
+    color: white;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+@keyframes wheelrotation{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes carmove{
+    100%{
+        transform: translateX(-500vw);
+    }
+}
+@keyframes shack{
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+
+}
+
+
+/* for search bar */
+
+.searchBox{
+    border-radius: 50px;
+    background: white;
+    border: 2px solid #76b39d;
+    height: 49px;
+    margin: 108px;
+}
+form{
+    margin: 0%;
+}
+input{
+    border: none;
+    margin: 10px 5px 10px 0px;
+    font-size: 20px;
+    outline: none;
+    color: #085f63;
+}
+i{
+    font-size: 20px;
+    margin: 0px 10px;
+    color: #085f63;
+}
+i:hover{
+    color: #76b39d;
+}
+button{
+    background:transparent;
+    border: none;
+
+}
